@@ -25,7 +25,7 @@
           <div class="collapse navbar-collapse" id="navbarMenu">
           <ul class="navbar-nav ml-auto">
               <li class="nav-item">
-                  <a href="#" class="nav-link">My cart</a>
+                  <a href="#" class="nav-link" onclick="document.getElementById('id02').style.display='block'" style="width:auto;">My cart</a>
               </li>
               <li class="nav-item">
                   <a href="#" class="nav-link">About us</a>
@@ -36,6 +36,8 @@
               <li class="nav-item">
                   <a href="#" class="nav-link" onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</a>
               </li>
+
+
 
           </div>
 
@@ -75,6 +77,19 @@
 
 
 <!--    Cart form      -->
+<div id="id02" class="modal">
+    <form class="modal-content animate" action="">
+        <div class="imgcontainer">
+            <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">&times;</span>
+        </div>
+
+        <div class="container">
+            <button type="Checkout">Checkout</button>
+        </div>
+
+
+    </form>
+</div>
 
 
 
@@ -84,13 +99,13 @@
 <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
     <div class="carousel-inner" role="listbox">
         <div class="carousel-item active">
-            <img class="d-block w-100" src="./img/download.jpeg" alt="First slide" height="350px">
+            <img class="d-block w-100" src="./img/download.jpeg" alt="First slide" height="400px">
         </div>
         <div class="carousel-item">
-            <img class="d-block w-100" src="./img/download.jpeg" alt="Second slide" height="350px">
+            <img class="d-block w-100" src="./img/download.jpeg" alt="Second slide" height="400px">
         </div>
         <div class="carousel-item">
-            <img class="d-block w-100" src="./img/download.jpeg" alt="Third slide" height="350px">
+            <img class="d-block w-100" src="./img/download.jpeg" alt="Third slide" height="400px">
         </div>
     </div>
     <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
