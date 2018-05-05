@@ -1,0 +1,6 @@
+{
+  "projects": {
+    "staging": "storemainweb",
+    "default": "storemainweb"
+  }
+}
