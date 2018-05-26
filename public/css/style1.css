@@ -1,32 +1,43 @@
-body{
-  background-color: #2f4050;
+/*   my cart    */
+/* The Close Button */
+
+.a{
+  background:coral;
+  padding:1em 2em;
+  border:0;
+
+}
+.a:hover{
+  background: #333;
 }
 
-.col-sm-10{
-  background-color: white;
+.modal {
+  display:none;
+  position:fixed;
+  z-index:1;
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  overflow:auto;
+  background-color: rgba(0,0,0,0.5);
 }
 
-#Side_Menu a{
-  color: #9fblc2;
+.modal-content{
+  background-color:#f4f4f4;
+  margin: 20% auto;
+  padding:20px;
+  width:50%;
 }
 
-#Side_Menu .active a{
-  color :#ffffff;
-  background-color:#27AAE1;
-  font-weight: bold;
+#closebtn{
+  color: #ccc;
+  float: right;
+  font-size:30px;
 }
 
-#Side_Menu a:hover{
-  color :#ffffff;
-  background-color:#1ab394;
-  font-weight: bold;
-  display :block;
-}
-
-#Footer{
-  padding:10px;
-  border-top: 1px solid black;
-  color:#eeeeeeee;
-  background-color: #211f22;
-  text-align: center;
+#closebtn:hover,#closebtn:focus{
+  color:#000;
+  text-decoration:none;
+  cursor:pointer;
 }

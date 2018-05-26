@@ -21,6 +21,16 @@ window.onload=function(){
   }else{
     console.log("error");
   }
+
+  //Get cancel Button
+  var closebtn = document.getElementById('cancelBtn');
+  if (closebtn){
+    //Listen for close click
+    closebtn.addEventListener('click',closeModal);
+  }else{
+    console.log("error");
+  }
+
 }
 
 //Function to open modal
@@ -31,8 +41,14 @@ function openModal(){
 //Function to close modal
 function closeModal(){
   document.getElementById("simpleModal").style.display = 'none';
+  //document.getElementById("cancelBtn").style.display = 'none';
 }
 
+//Function to cancel
+function closeModal(){
+  document.getElementById("simpleModal").style.display = 'none';
+  //document.getElementById("cancelBtn").style.display = 'none';
+}
 
 
 
