@@ -23,10 +23,10 @@ window.onload=function(){
   }
 
   //Get cancel Button
-  var closebtn = document.getElementById('cancelBtn');
-  if (closebtn){
+  var cancelBtn = document.getElementById('cancelBtn');
+  if (cancelBtn){
     //Listen for close click
-    closebtn.addEventListener('click',closeModal);
+    cancelBtn.addEventListener('click',closeModal);
   }else{
     console.log("error");
   }
@@ -45,10 +45,10 @@ function closeModal(){
 }
 
 //Function to cancel
-function closeModal(){
+/*function closeModal(){
+  //document.getElementById("simpleModal").style.display = 'none';
   document.getElementById("simpleModal").style.display = 'none';
-  //document.getElementById("cancelBtn").style.display = 'none';
-}
+}*/
 
 
 
